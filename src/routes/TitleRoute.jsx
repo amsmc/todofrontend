@@ -10,6 +10,7 @@ function TitleRoute() {
                 "/about": "About",
                 "/contact": "Contact",
                 "/login": "Login",
+                "/register": "Register",
             }
 
             document.titles = titles[location.pathname];
